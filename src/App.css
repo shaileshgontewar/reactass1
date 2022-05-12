@@ -1,22 +1,6 @@
 .App {
   text-align: center;
 }
-body {
-  /* background-image: linear-gradient(180deg, salmon, white); */
-  /* color: salmon; */
-  background-color: #faaca8;
-  background-image: linear-gradient(29deg, #faaca8 30%, #ab9bdf 70%);
-
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-header {
-  text-align: center;
-}
-header h1 {
-  text-shadow: 0.5px 2px 3px salmon;
-}
 
 .App-logo {
   height: 40vmin;

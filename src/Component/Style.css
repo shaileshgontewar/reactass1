@@ -1,13 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 16px;
+}
+body {
+  background-image: linear-gradient(29deg, #faaca8 30%, #ab9bdf 70%);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+header {
+  text-align: center;
+}
+header h1 {
+  text-shadow: 0.5px 2px 3px salmon;
+  font-size: 2.5rem;
+}
 .Function,
 .classBox {
   text-align: center;
   margin: 3rem;
-  background-color: blueviolet;
+  background-image: linear-gradient(blueviolet, white);
   height: 45vh;
   width: 40vw;
+  border-radius: 1.5rem;
 }
 .classBox {
-  background-color: chocolate;
+  background-image: linear-gradient(blueviolet, white);
+}
+h3 {
+  font-size: 2rem;
 }
 .btn {
   display: flex;
@@ -19,10 +43,23 @@ button {
   font-size: 1.3rem;
   border-radius: 10rem;
   height: 10vh;
-  padding: 1rem 5rem;
-  margin-left: 4rem;
+  padding: 1rem 4rem;
+  margin: 3rem 3rem;
+  border: none;
 }
 button:hover {
   cursor: pointer;
-  background-color: orange;
+  background-color: rgb(236, 83, 65);
+  letter-spacing: 0.1rem;
+}
+
+@media screen and (max-width: 760px) {
+  :root {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 560px) {
+  :root {
+    font-size: 8px;
+  }
 }
